@@ -1,6 +1,10 @@
+import {
+  AiFillFacebook,
+  AiFillInstagram,
+  AiFillTwitterCircle
+} from 'react-icons/ai';
 import { Container } from './styles';
 import logoBranca from '../../assets/logobranco.png';
-import { AiFillFacebook, AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai'
 
 function Footer() {
   return (
