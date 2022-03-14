@@ -7,13 +7,13 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: auto;
   border-bottom: 3px solid #1e40af;
-  padding: 1em 4em 1em;
+  padding: 1rem 0rem 1rem;
   .logo {
     img {
-      width: 250px;
+      width: 180px;
       height: auto;
     }
   }

@@ -5,6 +5,7 @@ interface ObrasProps {
 }
 export const Container = styled.section`
   margin-top: 5rem;
+  padding: 2rem 0 2rem;
   > main {
     width: 100%;
     display: flex;

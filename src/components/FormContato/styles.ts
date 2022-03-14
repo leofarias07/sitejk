@@ -48,7 +48,7 @@ export const Input = styled.input`
   background: #1e3a8a;
   border: 1px solid #fff;
   padding: 1.7rem 1.5rem;
-  color: #1e3a8a;
+  color: #fff;
   border-radius: 0.5rem;
   font-size: 1.2rem;
   outline: none;
@@ -73,7 +73,7 @@ export const TextArea = styled.textarea`
   background: #1e3a8a;
   border: 1px solid #1e3a8a;
   padding: 1.7rem 1.5rem;
-  color: ${({ theme }) => theme.colors.primary};
+  color: #fff;
   border-radius: 0.5rem;
   font-size: 1.2rem;
   outline: none;

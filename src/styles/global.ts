@@ -23,6 +23,7 @@ export default createGlobalStyle`
   body {
     background:#dbeafe;
     font: 400 1rem 'Montserrat', sans-serif;
+    margin: 0;
   }
 
   img {
