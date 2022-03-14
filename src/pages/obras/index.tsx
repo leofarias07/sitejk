@@ -13,19 +13,19 @@ export default function Obras() {
           slug="teste"
           imgUrl="https://images.prismic.io/sitejk/44f1a0fe-345c-4013-a11f-19b8f5f5ec89_transferir.jpg?auto=compress,format"
         />
-           <ObrasItens
+        <ObrasItens
           title="Obra 01"
           city="Caxias-MA"
           slug="teste"
           imgUrl="https://images.prismic.io/sitejk/44f1a0fe-345c-4013-a11f-19b8f5f5ec89_transferir.jpg?auto=compress,format"
         />
-           <ObrasItens
+        <ObrasItens
           title="Obra 01"
           city="Caxias-MA"
           slug="teste"
           imgUrl="https://images.prismic.io/sitejk/44f1a0fe-345c-4013-a11f-19b8f5f5ec89_transferir.jpg?auto=compress,format"
         />
-           <ObrasItens
+        <ObrasItens
           title="Obra 01"
           city="Caxias-MA"
           slug="teste"
