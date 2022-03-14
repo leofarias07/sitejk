@@ -97,10 +97,10 @@ export const Container = styled.div<HeroProps>`
   @media (max-width: 1000px) {
     > div {
       h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
       h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
       }
       .fourth {
         font-size: 1.5rem;
@@ -108,17 +108,21 @@ export const Container = styled.div<HeroProps>`
     }
   }
   @media (max-width: 550px) {
-    height: 28rem;
+    height: 19rem;
     width: 100vw;
     > div {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
       h1 {
-        font-size: 0.9rem;
+        margin-top: 3rem;
+        font-size: 0.7rem;
       }
       h2 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
       }
       .fourth {
-        font-size: 1.2rem;
+        font-size: 1rem;
       }
     }
   }

@@ -13,11 +13,11 @@ function Footer() {
         <img src={logoBranca} alt="logo JK" />
       </div>
       <div className="endereco">
-        <h1>Visite-nos</h1>
-        <p>Morada: Rua 1° Maiio 190 4755-558 Vila Seca </p>
+        <h1>Localização</h1>
+        <p>Morada: Rua São Pedro, 1551 Bairro Seriema Caxias-MA</p>
         <span>
-          Email:jkconstrucao@gmail.com <br />
-          Telefone: 99 99999-9999
+          Email:jkconstrucaocx@gmail.com <br />
+          Telefone: (98) 98603-8867
         </span>
       </div>
       <div className="sociais">
