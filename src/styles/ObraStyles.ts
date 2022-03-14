@@ -18,6 +18,12 @@ export const ObraContainer = styled.div`
       font-weight: 300;
       text-align: justify;
     }
-  }
+    @media (max-width: 700px) {
+      padding: 0 2.5rem;
 
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
 `;
