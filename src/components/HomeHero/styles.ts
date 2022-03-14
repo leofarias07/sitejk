@@ -108,15 +108,17 @@ export const Container = styled.div<HeroProps>`
     }
   }
   @media (max-width: 550px) {
+    height: 28rem;
+    width: 100vw;
     > div {
       h1 {
-        font-size: 1.3rem;
+        font-size: 0.9rem;
       }
       h2 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
       }
       .fourth {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
     }
   }

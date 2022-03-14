@@ -6,7 +6,7 @@ function HomeHero() {
     <Container img={bannerImg}>
       <div>
         <h1>EMPRESA DE CONSTRUÇÃO PROFISSIONAL</h1>
-        <h2>CONSTRUÍMOS SEUS SONHOS</h2>
+        <h2>CONSTRUINDO SONHOS</h2>
         <button className="btn fourth" type="submit">
           Contate-nos
         </button>
