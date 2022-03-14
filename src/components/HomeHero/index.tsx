@@ -3,7 +3,7 @@ import bannerImg from '../../assets/hero.jpg';
 
 function HomeHero() {
   return (
-    <Container imgUrl={bannerImg}>
+    <Container img={bannerImg}>
       <div>
         <h1>EMPRESA DE CONSTRUÇÃO PROFISSIONAL</h1>
         <h2>CONSTRUÍMOS SEUS SONHOS</h2>

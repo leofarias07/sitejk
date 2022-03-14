@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 interface HeroProps {
-  imgUrl: string;
+  img: string;
 }
 export const Container = styled.div<HeroProps>`
-  background: url(${props => props.imgUrl}) no-repeat center;
+  background: url(${props => props.img}) no-repeat center;
   position: relative;
   width: 100vw;
   height: 40rem;
