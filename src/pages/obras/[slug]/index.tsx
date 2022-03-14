@@ -1,9 +1,11 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
+import { useRouter } from 'next/router';
 import BannerObra from '../../../components/BannerObra';
 import Header from '../../../components/Header';
 import { getPrismicClient } from '../../../services/prismic';
 import { ObraContainer } from '../../../styles/ObraStyles';
+import LoadingScreen from '../../../components/LoadingScreen';
 
 interface IObra {
   slug: string;
@@ -18,6 +20,11 @@ interface ObraProps {
 }
 
 export default function Obra({ obra }: ObraProps) {
+  const router = useRouter();
+  if (router.isFallback) {
+    return <LoadingScreen />;
+  }
+
   return (
     <ObraContainer>
       <Header />
