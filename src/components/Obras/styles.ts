@@ -4,7 +4,7 @@ interface ObrasProps {
   imgUrl: string;
 }
 export const Container = styled.section`
-  margin-top: 5rem;
+  margin-top: 4rem;
   padding: 2rem 0 2rem;
   > main {
     width: 100%;
@@ -12,17 +12,19 @@ export const Container = styled.section`
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-
     > section {
       width: 100%;
       display: flex;
       flex-direction: column;
       gap: 4rem;
-
       @media (max-width: 1000px) {
         gap: 2rem;
+        margin-top: 0;
       }
     }
+  }
+  @media (max-width: 1000px) {
+    margin-top: 1rem;
   }
 `;
 
@@ -164,6 +166,7 @@ export const ObrasContainer = styled.div<ObrasProps>`
     height: 17rem;
   }
   @media (max-width: 500px) {
+    margin-top: 2rem;
     > button {
       height: auto;
 

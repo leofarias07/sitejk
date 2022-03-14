@@ -7,7 +7,7 @@ export const Container = styled.div`
   align-items: flex-start;
   gap: 0.5rem;
   border-bottom: 2px solid #1e3a8a;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   h1 {
     color: #1e3a8a;
     font-size: 4rem;
@@ -19,6 +19,7 @@ export const Container = styled.div`
   }
   @media (max-width: 500px) {
     border-bottom: 2px solid #1e3a8a;
+    margin-bottom: 0;
     margin-top: 0.8rem;
     > div {
       display: flex;

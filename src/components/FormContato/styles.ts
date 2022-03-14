@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   margin-top: 4rem;
+  @media (max-width: 550px) {
+    margin-top: 1rem;
+  }
 `;
 export const FormContainer = styled.form`
   margin-top: 4rem;
@@ -30,11 +33,13 @@ export const FormContainer = styled.form`
     }
   }
   @media (max-width: 700px) {
+    margin-top: 2rem !important;
     margin-top: 5rem;
     grid-template-columns: 1fr;
   }
 
   @media (max-width: 450px) {
+    margin-top: 2rem !important;
     > button {
       padding: 0.8rem 1.5rem;
       font-size: 1rem;
