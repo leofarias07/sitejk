@@ -2,7 +2,7 @@ import { FormContainer, Input, TextArea } from './styles';
 
 function Form() {
   return (
-    <FormContainer>
+    <FormContainer id="formulario">
       <Input placeholder="Nome" required />
       <Input placeholder="E-mail" type="email" required />
       <TextArea placeholder="Mensagem" required />

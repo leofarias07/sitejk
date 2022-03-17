@@ -7,9 +7,9 @@ function HomeHero() {
       <div>
         <h1>EMPRESA DE CONSTRUÇÃO PROFISSIONAL</h1>
         <h2>CONSTRUINDO SONHOS</h2>
-        <button className="btn fourth" type="submit">
+        <a className="btn fourth" href="#formulario">
           Contate-nos
-        </button>
+        </a>
       </div>
     </Container>
   );

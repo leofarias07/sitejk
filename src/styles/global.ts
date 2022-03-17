@@ -16,14 +16,13 @@ export default createGlobalStyle`
       border-radius: 10px;
     }
     ::-webkit-scrollbar-track{
-      background:#ffff};
+      background:#ffff;
     }
   }
 
   body {
     background:#dbeafe;
     font: 400 1rem 'Montserrat', sans-serif;
-    margin: 0;
   }
 
   img {

@@ -13,7 +13,7 @@ function Header() {
           <NavLink title="Home" path="/" />
           <NavLink title="Projetos" path="/obras" includes />
           <NavLink title="Sobre Nós" path="/sobrenos" includes />
-          <NavLink title="Contato" path="/sobrenos" includes />
+          <NavLink title="Contato" path="#formulario" includes />
         </ul>
       </div>
     </Container>

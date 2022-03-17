@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
+import Head from 'next/head';
 import Footer from '../components/Footer';
 import FormContato from '../components/FormContato';
 import Header from '../components/Header';
@@ -21,6 +22,21 @@ interface HomeProps {
 export default function Home({ obras }: HomeProps) {
   return (
     <>
+      <Head>
+        <title>Home | JK Construtora</title>
+        <meta
+          name="description"
+          content="JK CONSTRUTORA EMPRESA DE CONSTRUÇÃO PROFISSIONAL"
+        />
+        <meta property="og:image" content="/ogimage.png" />
+        <meta property="og:image:secure_url" content="/ogimage.png" />
+        <meta name="twitter:image" content="/ogimage.png" />
+        <meta name="twitter:image:src" content="/ogimage.png" />
+        <meta
+          property="og:description"
+          content="JK CONSTRUTORA EMPRESA DE CONSTRUÇÃO PROFISSIONAL"
+        />
+      </Head>
       <Header />
       <HomeHero />
       <Sobre />
