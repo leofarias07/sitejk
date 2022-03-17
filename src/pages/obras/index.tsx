@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
+import Head from 'next/head';
 import Header from '../../components/Header';
 import ObrasItens from '../../components/ObraItens';
 import { getPrismicClient } from '../../services/prismic';
@@ -18,6 +19,18 @@ interface ObrasProps {
 export default function Obras({ obras }: ObrasProps) {
   return (
     <ObrasContainer>
+      <Head>
+        <title>Obras | JK Construtora</title>
+        <meta name="description" content="NOSSAS OBRAS JK CONSTRUTORA" />
+        <meta property="og:image" content="/ogimage.png" />
+        <meta property="og:image:secure_url" content="/ogimage.png" />
+        <meta name="twitter:image" content="/ogimage.png" />
+        <meta name="twitter:image:src" content="/ogimage.png" />
+        <meta
+          property="og:description"
+          content="JK CONSTRUTORA EMPRESA DE CONSTRUÇÃO PROFISSIONAL"
+        />
+      </Head>
       <Header />
       <main className="container">
         {obras.map(obra => (

@@ -1,6 +1,7 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 import BannerObra from '../../../components/BannerObra';
 import Header from '../../../components/Header';
 import { getPrismicClient } from '../../../services/prismic';
@@ -27,6 +28,15 @@ export default function Obra({ obra }: ObraProps) {
 
   return (
     <ObraContainer>
+      <Head>
+        <title>{obra.title} | JK Construtora</title>
+        <meta name="description" content={obra.description} />
+        <meta property="og:image" content={obra.thumbnail} />
+        <meta property="og:image:secure_url" content={obra.thumbnail} />
+        <meta name="twitter:image" content={obra.thumbnail} />
+        <meta name="twitter:image:src" content={obra.thumbnail} />
+        <meta property="og:description" content={obra.description} />
+      </Head>
       <Header />
       <BannerObra title={obra.title} city={obra.city} imgUrl={obra.thumbnail} />
 
