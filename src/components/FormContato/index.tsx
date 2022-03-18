@@ -7,7 +7,7 @@ function FormContato() {
     <Container>
       <main className="container">
         <SectionTitle title="Entre em contato" />
-        <Form data-aos="fade-up" />
+        <Form />
       </main>
     </Container>
   );
