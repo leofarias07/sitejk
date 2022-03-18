@@ -2,7 +2,7 @@ import { Container } from './styles';
 
 function Sobre() {
   return (
-    <Container>
+    <Container data-aos="flip-right">
       <main className="container">
         <h1> JK Construtora </h1>
         <p>

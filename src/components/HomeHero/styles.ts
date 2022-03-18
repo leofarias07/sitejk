@@ -27,7 +27,7 @@ export const Container = styled.div<HeroProps>`
       border-bottom: 2px solid #fff;
     }
 
-    .btn {
+    > div .btn {
       box-sizing: border-box;
       -webkit-appearance: none;
       -moz-appearance: none;
@@ -61,7 +61,7 @@ export const Container = styled.div<HeroProps>`
       outline: 0;
     }
 
-    .fourth {
+    > div .fourth {
       border-color: #fff;
       color: #fff;
       background-image: -webkit-linear-gradient(
@@ -89,7 +89,7 @@ export const Container = styled.div<HeroProps>`
       h2 {
         font-size: 4rem;
       }
-      .fourth {
+      > div .fourth {
         font-size: 2rem;
       }
     }
@@ -102,7 +102,7 @@ export const Container = styled.div<HeroProps>`
       h2 {
         font-size: 2.5rem;
       }
-      .fourth {
+      > div .fourth {
         font-size: 1.5rem;
       }
     }
@@ -121,7 +121,7 @@ export const Container = styled.div<HeroProps>`
       h2 {
         font-size: 1.5rem;
       }
-      .fourth {
+      > div .fourth {
         font-size: 1rem;
       }
     }

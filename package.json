@@ -10,6 +10,7 @@
   "dependencies": {
     "@prismicio/client": "5.1.0",
     "@prismicio/react": "2.1.1",
+    "aos": "^2.3.4",
     "next": "10.2.0",
     "next-images": "^1.7.0",
     "nextjs-progressbar": "^0.0.14",

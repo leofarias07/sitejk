@@ -15,7 +15,7 @@ export default function ObrasItem({
   thumbnail
 }: ObrasProps) {
   return (
-    <ObrasContainer imgUrl={thumbnail}>
+    <ObrasContainer imgUrl={thumbnail} data-aos="fade-down-right">
       <section>
         <div className="overlay" />
         <div className="text">

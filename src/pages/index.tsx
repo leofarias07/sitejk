@@ -1,6 +1,8 @@
 import { GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
 import Head from 'next/head';
+import { useEffect } from 'react';
+import Aos from 'aos';
 import Footer from '../components/Footer';
 import FormContato from '../components/FormContato';
 import Header from '../components/Header';
@@ -8,6 +10,7 @@ import HomeHero from '../components/HomeHero';
 import Obras from '../components/Obras';
 import Sobre from '../components/Sobre';
 import { getPrismicClient } from '../services/prismic';
+import 'aos/dist/aos.css';
 
 interface IObras {
   slug: string;
@@ -20,6 +23,9 @@ interface HomeProps {
   obras: IObras[];
 }
 export default function Home({ obras }: HomeProps) {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
     <>
       <Head>
